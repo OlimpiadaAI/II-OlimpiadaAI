@@ -1,0 +1,14 @@
+name: kredytobranie
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cloudpickle=3.1.1
+  - gdown=5.2.0
+  - jupyterlab=4.3.5
+  - matplotlib=3.10.1
+  - numpy=2.2.3
+  - pandas=2.2.3
+  - python=3.11.11
+  - pytorch=2.3.1
+  - scikit-learn=1.6.1

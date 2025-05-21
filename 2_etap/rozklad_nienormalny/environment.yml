@@ -1,0 +1,18 @@
+name: odszumianie
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - cudatoolkit
+  - cloudpickle=3.1.1
+  - gdown=5.2.0
+  - jupyterlab=4.3.5
+  - matplotlib=3.10.1
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - python=3.11
+  - pytorch=2.3.1
+  - torchvision=0.18.1
+  - scikit-learn=1.6.1
+  - tqdm=4.67.1

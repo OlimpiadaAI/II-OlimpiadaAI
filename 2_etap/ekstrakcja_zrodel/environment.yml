@@ -1,0 +1,16 @@
+name: ekstrakcja
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - cudatoolkit
+  - python=3.11
+  - pytorch=2.3.1
+  - cloudpickle=3.1.1
+  - jupyterlab=4.3.5
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - tqdm=4.67.1
+  - nltk=3.9.1
+  - transformers=4.51.3
