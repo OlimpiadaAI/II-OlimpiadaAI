@@ -1,0 +1,19 @@
+name: prototypy_danych
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - cudatoolkit
+  - jupyter
+  - cloudpickle
+  - python==3.11
+  - pytorch
+  - torchinfo
+  - torchvision
+  - numpy
+  - matplotlib
+  - seaborn
+  - tqdm
+  - Pillow
+  - scikit-learn

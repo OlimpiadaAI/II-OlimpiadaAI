@@ -1,0 +1,39 @@
+name: stylizacja_tlumaczen
+channels:
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - cudatoolkit
+  - cloudpickle=3.1.1
+  - jupyterlab=4.3.5
+  - numpy=2.2.6
+  - tqdm=4.67.1
+  - transformers=4.52.2
+  - datasets=3.3.2
+  - nltk=3.9.1
+  - torchinfo=1.8.0 
+  - torchmetrics=1.3.1 
+  - accelerate=1.4.0 
+  - cloudpickle=3.1.1 
+  - datasets=3.3.2 
+  - gdown=4.7.1 
+  - matplotlib=3.10.3 
+  - nltk=3.9.1 
+  - pandas=2.2.3 
+  - transformers=4.52.2 
+  - safetensors 
+  - conda-forge::opencv=4.11.0
+  - peft 
+  - pillow=11.2.1 
+  - sacremoses 
+  - scikit-learn=1.4.2 
+  - scikit-image=0.25.2 
+  - seaborn=0.13.2 
+  - sentencepiece 
+  - tqdm=4.67.1 
+  - evaluate
+  - protobuf
+  - pip:
+    - torch==2.6.0 --index-url https://download.pytorch.org/whl/cu126 
+    - torchvision --index-url https://download.pytorch.org/whl/cu126

@@ -18,7 +18,7 @@ Regulamin jest dostępny na naszej [stronie](https://oai.cs.uni.wroc.pl/regulami
 Oficjalnym kanałem komunikacji z uczestnikami będzie platforma Discord. Dostęp do niej otrzymują uczestnicy po dokonaniu rejestracji.
 
 ## Zadania
-W ramach pierwszego etapu Olimpiady uczestnicy zmierzą się z następującymi wyzwaniami:
+W ramach pierwszego etapu Olimpiady uczestnicy zmierzyli się z następującymi wyzwaniami:
 1. **Maszynka do Liczenia Monet** - Detekcja monet z wykorzystaniem modeli wizyjnych.
 1. **Wykrywanie Halucynacji** - Wykrywanie halucynacji modeli językowych w odpowiedziach na pytania.
 1. **Wykrywanie Zaburzeń Sygnału EKG** - Wykrywanie anomalii w danych EKG.
@@ -30,6 +30,12 @@ W drugim etapie uczestnicy rywalizowali rozwiązując nastepujące zadania:
 1. **Rozkład Nienormalny** - Usuwanie i klasyfikacja różnych rodzajów szumu na obrazie.
 1. **Kredytobranie** - Znajdowanie kierunków w przestrzeni danych najskuteczniej zmieniających decyzje klasyfikatora.
 1. **Ekstrakcja Źródeł** - Dobór embeddingów użytecznych w wyszukiwaniu tekstów źródłowych.
+
+Na zawody finałowe, przygotowaliśmy następujące problemy:
+1. **Inpainting** - Uzupełenianie brakujących fragmentów obrazu przy użyciu sieci INR.
+1. **Oduczanie** - Usunięcie z modelu wybranych informacji.
+1. **Stylizacja tłumaczeń** - Dotrenowanie modelu tłumaczenia maszynowego do specyficznego stylu.
+1. **Protypy danych** - Wybór reprezentatywnych i różnorodnych przykładów ze zbioru danych.
 
 ## Sposób oddawania zadań
 W pierwszym etapie uczestnicy rozwiązywali zadania samodzielnie i przesyłali je do Komitetu Merytorycznego za pomocą Platformy Konkursowej. Dostęp do niej jest udostępniany uczestnikom po rejestracji. Każde zadanie wymagało przesłania pliku Jupyter Notebook z rozwiązaniem. Wszystkie prace zostały oceniane automatycznie na Platformie Konkursowej.
@@ -86,6 +92,14 @@ Repozytorium korzysta z następujących zasobów objętych licencjami:
 }
 ```
 
+### 3 etap
+- [**OpenAI DALL·E**](https://openai.com/policies/terms-of-use/) - ilustracje w zadaniach
+- [**Fashion-MNIST**](https://github.com/zalandoresearch/fashion-mnist) - zbiór danych użyty w zadaniu Oduczanie.
+- [**CIFAR-100**](https://www.cs.toronto.edu/~kriz/cifar.html) - zbiór danych użyty w zadaniu Prototypy danych.
+- [**gsarti/opus-mt-tc-en-pl**](https://huggingface.co/gsarti/opus-mt-tc-en-pl) - model MarianMT użyty w zadaniu Stylizacja tłumaczeń.
+- [**Openai API**](https://openai.com/policies/terms-of-use/) - syntetyczny zbiór zadań w zadaniu 
+Stylizacja tłumaczeń.
+- [**GeeksForGeeks**](https://www.geeksforgeeks.org/) - ilustracja architektury LeNet w treści zadania Oduczanie.
 
 ## Kontakt
 W razie pytań lub wątpliwości, prosimy o kontakt przez platformę Discord lub e-mail: [oai@cs.uni.wroc.pl](mailto:oai@cs.uni.wroc.pl).
